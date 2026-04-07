@@ -15,21 +15,23 @@ A professional-grade SSL/TLS configuration and certificate analysis tool designe
 This tool is optimized for **Kali Linux** using Python 3.13+. It is recommended to run this within a virtual environment to avoid conflicts with system-level packages.
 
 # Create and activate a virtual environment
+<pre>
 python3 -m venv venv
 source venv/bin/activate
-
+</pre>
 # Install dependencies
+<pre>
 pip install sslyze pandas openpyxl
-
+</pre>
 ## 📋 Usage
 Open ssl_audit_v4.py.
 
 Update the target_domains list with your scope.
 
 Run the auditor:
-
-# python3 ssl_audit_v4.py
-
+<pre>
+python3 ssl_audit_v4.py
+</pre>
 The script will output a file named full_ssl_pentest_report.xlsx in the root directory.
 
 ## 🛡️ Security Use Cases
