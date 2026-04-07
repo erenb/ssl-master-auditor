@@ -21,7 +21,7 @@ source venv/bin/activate
 # Install dependencies
 pip install sslyze pandas openpyxl
 
-📋 Usage
+## 📋 Usage
 Open ssl_audit_v4.py.
 
 Update the target_domains list with your scope.
@@ -32,7 +32,7 @@ Run the auditor:
 
 The script will output a file named full_ssl_pentest_report.xlsx in the root directory.
 
-🛡️ Security Use Cases
+## 🛡️ Security Use Cases
 Compliance Audits: Quickly identify PCI-DSS or SOC2 violations (e.g., use of TLS 1.0).
 
 Reconnaissance: Map the attack surface by identifying wildcard certificates and shared infrastructure.
